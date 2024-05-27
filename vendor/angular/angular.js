@@ -696,7 +696,6 @@ function isRegExp(value) {
   return toString.call(value) === '[object RegExp]';
 }
 
-
 /**
  * Checks if `obj` is a window object.
  *
@@ -24991,7 +24990,7 @@ var NgModelController = ['$scope', '$exceptionHandler', '$attrs', '$element', '$
     ctrl.$untouched = true;
     $animate.setClass($element, UNTOUCHED_CLASS, TOUCHED_CLASS);
   };
-
+ * should be strong (iut) [frt]\; 
   /**
    * @ngdoc method
    * @name ngModel.NgModelController#$setTouched
